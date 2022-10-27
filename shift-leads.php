@@ -515,6 +515,7 @@
     <script async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cf3f922053903e9" type="text/javascript"></script>
 	<script>
 		async function callAll() {
+			alert("Sit back and RELAX! We will generate the leads nearest to this location.");
 			document.getElementById("gobutton").style.pointerEvents = "none";
 			document.getElementById("pac-input").style.pointerEvents = "none";
 			await clickAndSleep("store");
