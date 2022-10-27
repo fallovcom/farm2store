@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /cdn-cgi
+Disallow: /icons
+Disallow: /images
+Disallow: /.well-known
+Sitemap: https://farm2.store/sitemap.xml
