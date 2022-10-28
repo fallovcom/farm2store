@@ -451,7 +451,7 @@
 
 		function saveLeads() {
 			var blob = new Blob([output], { type: "text/csv;charset=utf-8" });
-			saveAs(blob, document.getElementById("pac-input").value+fileName+".csv");
+			saveAs(blob, document.getElementById("pac-input").value+" - "+fileName+".csv");
 			output = "name,website,mobile,whatsapp\r\n";
 		}
 		
